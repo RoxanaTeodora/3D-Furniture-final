@@ -1,0 +1,54 @@
+.navbar {
+  background-color: red;
+}
+
+/* .container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  /* margin: 10px; */
+/* background-color: bisque;
+  align-items: flex-start;
+} */
+
+/* .home,
+.cart,
+.admin,
+.contact {
+  padding: 10px;
+} */
+
+/* a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+a:hover {
+  background-color: rgb(246, 223, 195);
+  font-size: x-large;
+} */
+
+/* .navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 0;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar .menu {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar a,
+.navbar a:hover,
+.navbar a:focus,
+.navbar a:active {
+  text-decoration: none;
+  color: inherit;
+} */
