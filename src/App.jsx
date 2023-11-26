@@ -9,7 +9,7 @@ import { Navbar } from "./components/Navbar";
 const App = () => {
   return (
     <>
-      <Navbar />
+      <Navbar color="whie" textColor="#265073" />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/admin" element={<Admin />} />
@@ -21,3 +21,5 @@ const App = () => {
 };
 
 export default App;
+
+// definim diferite rute care pot avea istoric diferit

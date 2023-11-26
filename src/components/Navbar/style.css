@@ -1,39 +1,15 @@
-.navbar {
-  background-color: red;
-}
-
-/* .container {
-  display: flex;
-  flex-direction: row;
-  padding-left: 10px;
-  /* margin: 10px; */
-/* background-color: bisque;
-  align-items: flex-start;
-} */
-
-/* .home,
-.cart,
-.admin,
-.contact {
-  padding: 10px;
-} */
-
-/* a {
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
-  font-weight: bolder;
-}
-
-a:hover {
-  background-color: rgb(246, 223, 195);
-  font-size: x-large;
-} */
-
 /* .navbar {
+  background-color: red;
+} */
+
+.navbar {
   display: flex;
   justify-content: space-around;
-  padding: 5px 0;
+  align-items: start;
+  height: 60px;
+  /* width: 41536px;
+  padding-left: 0px;
+  margin-left: 0px; */
 }
 
 .navbar a {
@@ -43,6 +19,7 @@ a:hover {
 .navbar .menu {
   display: flex;
   gap: 10px;
+  padding-top: 25px;
 }
 
 .navbar a,
@@ -51,4 +28,4 @@ a:hover {
 .navbar a:active {
   text-decoration: none;
   color: inherit;
-} */
+}
