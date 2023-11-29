@@ -30,7 +30,12 @@ export const Navbar = (props) => {
       }}
     >
       <div className="logo">
-        <Link to="/">Home</Link>
+        <div className="img">
+          <img src="./public/planet-earth.png" alt="logo" />
+        </div>
+        <div>
+          <Link to="/">Home</Link>
+        </div>
       </div>
       <div className="menu">
         <div>
