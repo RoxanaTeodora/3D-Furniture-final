@@ -31,7 +31,7 @@ export const Navbar = (props) => {
     >
       <div className="logo">
         <div className="img">
-          <img src="./public/planet-earth.png" alt="logo" />
+          <img src="./planet-earth.png" alt="logo" />
         </div>
         <div>
           <Link to="/">Home</Link>
