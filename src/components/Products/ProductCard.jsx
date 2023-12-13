@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const ProductCard = (props) => {
   const addProductToCart = (e) => {
@@ -41,13 +42,23 @@ const ProductCard = (props) => {
             </span>
           </p>
         </div>
-        <button
-          id={props.product.id}
-          className="flex items-center justify-center rounded-md bg-green-950 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-blue-300"
-          onClick={addProductToCart}
-        >
-          Add to cart
-        </button>
+        <div className="flex flex-row  font-medium text-black items-buttom">
+          <button
+            id={props.product.id}
+            className=" flex flex-row  bg-green-950 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-green-300"
+            onClick={addProductToCart}
+          >
+            Add to cart
+          </button>
+          <span>
+            <Link
+              to="details"
+              className="absolute bottom-0 p-4 underline text-green-700 "
+            >
+              Detail
+            </Link>
+          </span>
+        </div>
       </div>
     </div>
   );

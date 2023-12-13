@@ -16,7 +16,7 @@
 //   );
 // };
 
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import "./style.css";
 import PropTypes from "prop-types";
 
@@ -44,6 +44,7 @@ export const Navbar = (props) => {
         <div>
           <Link to="/cart">Cart</Link>
         </div>
+        <Outlet />
       </div>
     </div>
   );

@@ -20,7 +20,7 @@ const Cart = () => {
 
     fetchProducts();
   }, []);
-  // array-ul gol indica ca tot codul dupa return se ruleaza o sg data
+  // lista de dependențe, iar dacă aceasta este goală, efectul se va rula doar o singură dată return
   //useEffect se ruleaza doar la incarcare in pg sau cand se schimba mai multe state-uri, ex. seara se schimba preturile cu alt api
 
   const getProductById = (id) => {
@@ -131,6 +131,7 @@ const Cart = () => {
       </Link>
     </div>
   );
+  g;
 };
 
 export default Cart;
